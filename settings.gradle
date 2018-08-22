@@ -1,0 +1,4 @@
+rootProject.name = 'fpay'
+
+include 'fpay-core', 'fpay-intf', 'fpay-prep'
+
