@@ -1,0 +1,1 @@
+package fpay.core.domain.agreement;

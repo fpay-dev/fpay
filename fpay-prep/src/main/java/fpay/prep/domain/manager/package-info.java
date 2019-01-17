@@ -1,0 +1,1 @@
+package fpay.prep.domain.manager;

@@ -44,4 +44,20 @@ subprojects {
     }
 }
 
+project(':fpay-core') {
+//    plugins {
+//        id "org.flywaydb.flyway" version "5.2.4"
+//    }
+
+    dependencyManagement {
+        imports {
+            mavenBom 'org.springframework.data:spring-data-releasetrain:Lovelace-SR3'
+        }
+    }
+
+    dependencies {
+        compile 'org.springframework.data:spring-data-jpa'
+    }
+}
+
 
